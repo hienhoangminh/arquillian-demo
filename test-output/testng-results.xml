@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10769" started-at="2018-04-12T13:27:55Z" finished-at="2018-04-12T13:28:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10769" started-at="2018-04-12T13:27:55Z" finished-at="2018-04-12T13:28:06Z">
+      <class name="com.test.arquillian.demo.GrapheneTest">
+        <test-method status="PASS" signature="arquillianBeforeSuite()[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianBeforeSuite" is-config="true" duration-ms="216" started-at="2018-04-12T13:27:55Z" finished-at="2018-04-12T13:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeSuite -->
+        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianBeforeClass" is-config="true" duration-ms="4" started-at="2018-04-12T13:27:55Z" finished-at="2018-04-12T13:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeClass -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianBeforeTest" is-config="true" duration-ms="14" started-at="2018-04-12T13:27:55Z" finished-at="2018-04-12T13:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.arquillian.demo.GrapheneTest.googleSearchTest(com.test.arquillian.demo.Google)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleSearchTest(com.test.arquillian.demo.Google)[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="googleSearchTest" duration-ms="10652" started-at="2018-04-12T13:27:55Z" data-provider="ARQUILLIAN_DATA_PROVIDER" finished-at="2018-04-12T13:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.test.arquillian.demo.Google@2cb2fc20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-04-12T13:28:06Z" finished-at="2018-04-12T13:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.arquillian.demo.GrapheneTest.googleSearchTest(com.test.arquillian.demo.Google)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianAfterClass" is-config="true" duration-ms="82" started-at="2018-04-12T13:28:06Z" finished-at="2018-04-12T13:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterClass -->
+        <test-method status="PASS" signature="arquillianAfterSuite()[pri:0, instance:com.test.arquillian.demo.GrapheneTest@7ba18f1b]" name="arquillianAfterSuite" is-config="true" duration-ms="1" started-at="2018-04-12T13:28:06Z" finished-at="2018-04-12T13:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterSuite -->
+      </class> <!-- com.test.arquillian.demo.GrapheneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
